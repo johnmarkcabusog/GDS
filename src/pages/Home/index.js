@@ -1,16 +1,16 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Button from "@material-ui/core/Button"
-import Divider from "@material-ui/core/Divider"
+// import Divider from "@material-ui/core/Divider"
 import Typography from "@material-ui/core/Typography"
-import CardMedia from "@material-ui/core/CardMedia"
+// import CardMedia from "@material-ui/core/CardMedia"
 import {makeStyles, createStyles} from "@material-ui/styles"
 import Background from "./assets/aerial-background.jpg"
-import messageImg from "./assets/hello.png"
+// import messageImg from "./assets/hello.png"
 import Header from "../Header"
-import Newsbites from "./components/Newsbites"
+// import Newsbites from "./components/Newsbites"
 import Footer from "../Footer"
-import Gallery from "../Gallery"
+// import Gallery from "../Gallery"
 import PermPhoneMsgRoundedIcon from '@material-ui/icons/PermPhoneMsgRounded';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
@@ -79,7 +79,6 @@ const Home = () =>{
             <Header/>
                 <Grid item xs={12} sm={4} >
                   <Grid container  spacing={0}
-                    container
                     direction="row"
                     justify="flex-start"
                     alignItems="center"

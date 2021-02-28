@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 const Header =()=>{
     return(
-        <AppBar style={{backgroundColor: "#0CC6C7"}}>
+        <AppBar style={{backgroundColor: "#046789"}}>
             <Toolbar style={{minHeight:36}}>
                Scroll to see button
             </Toolbar>

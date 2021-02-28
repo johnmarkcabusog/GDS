@@ -7,7 +7,7 @@ const Header =()=>{
     return(
         <AppBar style={{backgroundColor: "#046789"}}>
             <Toolbar style={{minHeight:36}}>
-               Scroll to see button
+              Header Menu
             </Toolbar>
         </AppBar>
     )
